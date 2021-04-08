@@ -10,7 +10,7 @@ import Utils.Information;
 
 public class App {
     public static void main(String[] args) {
-
+        //El método main es estático para que la máquina virtual de Java pueda llamarlo directamente sin tener que crear un objeto de la clase que lo contiene.
 
 
         Supervisor e1 = new Supervisor("1000","Uayeb", "Caballero", 1000);
@@ -53,7 +53,7 @@ public class App {
 
 
 
-        //
+        //Cursos - static
         System.out.println("\nEmpresa que ofrece sus cursos: "+Courses.Nombre_Empresa);
         Courses.Cursos();
         System.out.println("Precio por suscripcion: "+Courses.price);
